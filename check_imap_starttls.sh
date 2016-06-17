@@ -81,7 +81,7 @@ EOT
 openssl -h 2> /dev/null
 if [ $? != 0 ]; then
     echo "There is a problem with your OpenSSL program"
-    exit 3
+    exit $STATE_UNKNOWN
 fi
 
 
