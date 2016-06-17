@@ -6,7 +6,6 @@ you want to check.
 
 ## Usage ##
 
-    ./check_imap_starttls.sh - Version 0.1
     (c) 2016 Jack-Benny Persson (jack-benny@cyberinfo.se)
     Test/monitor a IMAP server with STARTTLS and login with a username/password
     Options:
