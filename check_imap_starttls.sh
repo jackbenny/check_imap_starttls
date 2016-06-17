@@ -22,8 +22,8 @@
 
 ###############################################################################
 #                                                                             # 
-# Nagios plugin to test IMAP servers with STARTTLS and test to login with     #
-# username and password                                                       #
+# Nagios plugin to test IMAP servers with STARTTLS. The plugin also try to    #
+# login with a username and password.                                         #
 #                                                                             #
 ###############################################################################
 
