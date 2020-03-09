@@ -78,7 +78,7 @@ EOT
 }
 
 # Test if openssl is installed
-openssl -h 2> /dev/null
+openssl help 2> /dev/null
 if [ $? != 0 ]; then
     echo "There is a problem with your OpenSSL program"
     exit $STATE_UNKNOWN
